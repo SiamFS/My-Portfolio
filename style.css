@@ -1,4 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(194, 217, 238);
+}
+.color-1{
+    color:darkcyan;
+}
+.color-2{
+    color:darkslategray;
 }
