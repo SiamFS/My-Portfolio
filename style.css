@@ -9,3 +9,24 @@ body{
 .color-2{
     color:darkslategray;
 }
+section{
+    display: flex;
+}
+.half-width{
+    width: 100%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 2ms;
+    transition: all 0.6s ease-in-out;   
+}
