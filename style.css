@@ -69,11 +69,23 @@ body{
     margin-bottom:10% ;
     box-shadow: 10px 10px 40px rgba(245, 149, 5, 0.945);
     border-radius: 10px;
+    border-left: 10px solid orange;
 
 }
 .top3{
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left-top;
-
+}
+#id_1{
+    border-left: 10px solid aqua;
+}
+#id_2{
+    border-left: 10px solid darkcyan;
+}
+footer{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 5px;
+    text-align: center;
 }
