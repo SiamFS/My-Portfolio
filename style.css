@@ -60,3 +60,20 @@ body{
     margin-top:20px;
 
 }   
+.half-width-3{
+
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px; 
+    margin-bottom:10% ;
+    box-shadow: 10px 10px 40px rgba(245, 149, 5, 0.945);
+    border-radius: 10px;
+
+}
+.top3{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left-top;
+
+}
