@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
-    background-color: rgb(194, 217, 238);
+    margin: 0;
 }
 .color-1{
     color:darkcyan;
@@ -9,24 +9,54 @@ body{
 .color-2{
     color:darkslategray;
 }
-section{
+
+.flexiable-container{
     display: flex;
+    margin-bottom: 100px;
+    margin: 0px;
 }
 .half-width{
-    width: 100%;
-    padding-left: 10%;
+    width: 50%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.half-width-2{
+    width: 50%;
+    padding-right: 20%;
+    font-size: 100%;
+}
+.half-width-2 img {
+    width: 100%;
+
+
 }
 .btn{
-    background-color: darkcyan;
+    background-image: linear-gradient(orange,tomato);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 40px;
     cursor: pointer;
     text-decoration: none;
-    transition-duration: 2ms;
-    transition: all 0.6s ease-in-out;   
+    transition: all 0.5s ease-in-out;  
+    box-shadow: 5px 10px 30px rgba(245, 149, 5, 0.945);
+    border-radius: 5px;
+    font-size: 20px;
 }
+.top1{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+.top2{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-top:20px;
+
+}   
