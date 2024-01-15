@@ -104,20 +104,47 @@ footer{
     text-align: center;
 }
 @media screen and (max-width: 768px) {
+    .flexiable-container {
+        flex-direction: column;
+    }
+
     .half-width, .half-width-2, .half-width-3 {
         width: 100%;
         padding: 0;
         margin: 0;
     }
-    .half-width img {
+
+    .half-width img, .half-width-2 img {
         width: 100%;
+        height: auto; /* Maintain aspect ratio */
         margin: 0;
     }
+
     .half-width-2 {
         padding-right: 0;
     }
+
     .btn {
         margin-top: 10px; /* Add some space above the buttons */
+        width: 100%; /* Make the button full width */
+    }
+
+    .top1, .top2, .top3 {
+        background-size: cover; /* Ensure background images cover the entire section */
+        background-position: center; /* Center the background images */
+    }
+
+    footer {
+        width: 100%; /* Make the footer full width */
+        text-align: center; /* Center-align text in the footer */
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for headers on smaller screens */
+    }
+
+    h3, p {
+        font-size: 16px; /* Adjust font size for paragraphs and smaller headers */
     }
 }
-
